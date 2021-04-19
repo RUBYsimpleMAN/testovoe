@@ -1637,29 +1637,29 @@
 /*==========  Mobile First Method  ==========*/
 
 /* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
+/* @media only screen and (min-width : 320px) {
 
-}
+} */
 
 /* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
+/* @media only screen and (min-width : 480px) {
 
-}
+} */
 
 /* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
+/* @media only screen and (min-width : 768px) {
 
-}
+} */
 
 /* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
+/* @media only screen and (min-width : 992px) {
     .menu-mobile {
         display: none !important;
     }
-}
+} */
 
 /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
+/* @media only screen and (min-width : 1200px) {
     .menu {
      display: flex !important;
      height: auto !important;
@@ -1674,4 +1674,4 @@
     .billbord__image {
         left: 51%;
     }
-}
+} */
