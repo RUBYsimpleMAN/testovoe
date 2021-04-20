@@ -9,8 +9,10 @@ body::before {
   height: 100%;
 	background-position: center center;
 	background-repeat: no-repeat;
+	background-attachment: fixed;
+	z-index: 0;
 }
-body::after {
+/* body::after {
   content: "";
   background: linear-gradient(  rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, .85) 30%, rgba(255, 255, 255, .05) 50%);
 	position: absolute;
@@ -18,29 +20,33 @@ body::after {
   left: 0;
   width: 100%;
   height: 100%;
-}
-.wrapper {
-	padding-top: 155px;
-}
+	background-attachment: fixed;
+	z-index: 1;
+} */
+
 .container {
 	max-width: 1730px;
 }
 
-.header {
+header {
 	top: 0;
 	left: 0;
   right: 0;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
   height: 12vh;
   padding: 2% 4%;
 	position: fixed;
 	background: linear-gradient( rgba(255, 255, 255, 1), 95%, rgba(255, 255, 255, .65) 99%);
+	z-index: 3;
+}
+
+header .header-inside {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 
 .logo img {
-	width: 119px;
+	width: 256px;
 }
 
 .nav {
@@ -49,7 +55,7 @@ body::after {
 .nav__menu {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 	min-width: 60%;
 	font-weight: 600;
 }
@@ -75,8 +81,47 @@ body::after {
 	min-width: 24%;
 }
 
+.wrapper {
+	padding-top: 155px;
+}
 
-.footer {
+.wrapper__gradient{
+  background: linear-gradient( rgba(255, 255, 255, 1) 10%, rgba(255, 255, 255, .85) 30%, rgba(255, 255, 255, .05) 50%);
+	position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+	background-attachment: fixed;
+	z-index: 1;
+}
+
+.page-title {
+	position: relative;
+	padding-top: 20px;
+	text-align: center;
+	z-index: 4;
+}
+
+.main__pic-scoupe {
+	position: relative;
+	display: flex;
+	margin: 3% auto;
+	max-width: 90%;
+	height: 50vh;
+	padding-top: 40px;
+	border: 2px solid navy;
+	background-color: rgba(76, 122, 168, .4);
+	z-index: 5;
+}
+
+
+
+
+
+
+
+footer {
   left: 0;
   right: 0;
   bottom: 0;
@@ -88,11 +133,11 @@ body::after {
   position: fixed;
 	background: linear-gradient( rgba(255, 255, 255, .85), 5%, rgba(255, 255, 255, 1) 99%);
 }
-.footer .nav__social-links-icon {
+footer .nav__social-links-icon {
 	display: flex;
 	justify-content: space-between;
 	min-width: 30%;
 }
-.footer .nav__social-links-icon span{
+footer .nav__social-links-icon span{
 	padding: 5%;
 }
