@@ -106,8 +106,10 @@ header .header-inside {
 .main__pic-scoupe {
 	position: relative;
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 	margin: 3% auto;
-	max-width: 90%;
+	/* max-width: 96%; */
 	height: 50vh;
 	padding-top: 40px;
 	border: 2px solid navy;
@@ -144,6 +146,18 @@ letter-spacing: -0.015em;
 color: #FFFFFF;
  */
 
+.main__pic-area {
+	justify-self: center;
+	flex-basis: 22%;
+	min-width: 20%;
+	background-color: steelblue;
+}
+.main__pic-tab {
+	width: auto;
+}
+.main__pic-star {
+	margin-top: -10%;
+}
 
 
 footer {
