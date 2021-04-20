@@ -12,7 +12,6 @@
   <meta name="viewport"
         content="width=device-width, initial-scale=1.2, maximum-scale=1.6, minimum-scale=.8">	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>SSsTEST</title>
-  <link rel="stylesheet" href="css/f.css">
 
   <link href="https://fonts.googleapis.com/css?family=Lato:100,300|Montserrat:200|Open+Sans:300,400|Roboto+Condensed|Roboto:100&display=swap" rel="stylesheet">
 
@@ -27,71 +26,95 @@
   <link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
   <link rel="stylesheet" href="css/fonts.css" />
   <link rel="stylesheet" href="css/reset.css" />
-  <link rel="stylesheet" href="css/main.css?ver=1.4" />
-  <link rel="stylesheet" href="css/media.css?ver=1.4" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/media.css" />
 </head>
 <body>
-  <header>
-    <nav>
-      <div class=nav__logo>
-        <img src="logo.svg" alt="assets/logo.svg" />
+  <div class="container">
+    <header>
+      <div class="header-inside">
+        <div class="logo">
+          <img src="imgs/logo.png" alt="HEADER/logo.png" />
+        </div>
+        <nav class="nav">
+          <ul id="navbar__list" class="nav__menu">
+            <li><a class="menu-items" id="menu-1" href="#section1"><span class="title">О нас</span></a></li>
+            <!-- <li><a class="menu-items" id="menu-1" href="#section2"><span class="title">Отраслевые решения</span></a></li> -->
+            <li><a class="menu-items" id="menu-1" href="#section3"><span class="title">Услуги</span></a></li>
+            <li><a class="menu-items" id="menu-1" href="why.html"><span class="title">Почему мы?</span></a></li>
+            <li><a class="menu-items" id="menu-1" href="#section5"><span class="title">Телемаркетинг</span></a></li>
+            <li><a class="menu-items" id="menu-1" href="carrier.html"><span class="title">Каръера</span></a></li>
+            <li><a class="menu-items" id="menu-1" href="#section6"><span class="title">Контакты</span></a></li>
+          </ul>
+        </nav>
+        <div class="nav__phones-burger">
+          <span class="nav__phones">
+            <div>+7 (499) 649-69-80</div>
+            <div>+7 (916) 156-08-98</div>
+          </span>
+          <span class="nav__burger">
+            <div class=nav__burger-stick></div>
+            <div class=nav__burger-stick></div>
+            <div class=nav__burger-stick></div>
+          </span>
+        </div>
       </div>
-      <ul id="navbar__list">
-        <li><a class="menu-items" id="menu-1" href="#section1"><span class="title">О нас</span></a></li>
-        <!-- <li><a class="menu-items" id="menu-1" href="#section2"><span class="title">Отраслевые решения</span></a></li> -->
-        <li><a class="menu-items" id="menu-1" href="#section3"><span class="title">Услуги</span></a></li>
-        <li><a class="menu-items" id="menu-1" href="#section4"><span class="title">Почему мы?</span></a></li>
-        <li><a class="menu-items" id="menu-1" href="#section5"><span class="title">Телемаркетинг</span></a></li>
-        <li><a class="menu-items" id="menu-1" href="/pages/carrier.html"><span class="title">Каръера</span></a></li>
-        <li><a class="menu-items" id="menu-1" href="#section6"><span class="title">Контакты</span></a></li>
-      </ul>
-      <div class=nav__phones>
-        +7 (499) 649-69-80
-        +7 (916) 156-08-98
+    </header>
+    <main>
+      <!-- <div id="app"></div> -->
+      <div class="wrapper">
+        <div class="wrapper__gradient"></div>
       </div>
-      <div class=nav__burger>
+      <div class="page-title">
+        <h1>Почему мы?</h1>
       </div>
-    </nav>
-  </header>
-  <main>
-    <div id=app>
-    </div>
-  </main>
-  <footer>
-    <nav>
-      <div class=nav__logo>
-        <img src="logo.svg" alt="assets/logo.svg" />
+      <div class="main__pic-scoupe"></div>
+    </main>
+    <footer>
+      <div class="logo">
+        <img src="imgs/logo.png" alt="FOOTER/logo.png" />
       </div>
-      <ul id="nav__list">
-        <li><a class="menu-items" id="menu-1" href="#section1"><span class="title">О нас</span></a></li>
-        <!-- <li><a class="menu-items" id="menu-1" href="#section2"><span class="title">Отраслевые решения</span></a></li> -->
-        <li><a class="menu-items" id="menu-1" href="#section3"><span class="title">Услуги</span></a></li>
-        <li><a class="menu-items" id="menu-1" href="#section4"><span class="title">Почему мы?</span></a></li>
-        <li><a class="menu-items" id="menu-1" href="#section5"><span class="title">Телемаркетинг</span></a></li>
-        <li><a class="menu-items" id="menu-1" href="/pages/carrier.html"><span class="title">Каръера</span></a></li>
-        <li><a class="menu-items" id="menu-1" href="#section6"><span class="title">Контакты</span></a></li>
-      </ul>
-      <div class=nav__phones>
-        +7 (499) 649-69-80
-        +7 (916) 156-08-98
+      <nav class="nav">
+        <ul id="navbar__list" class="nav__menu">
+          <li><a class="menu-items" id="menu-1" href="#section1"><span class="title">О нас</span></a></li>
+          <!-- <li><a class="menu-items" id="menu-1" href="#section2"><span class="title">Отраслевые решения</span></a></li> -->
+          <li><a class="menu-items" id="menu-1" href="#section3"><span class="title">Услуги</span></a></li>
+          <li><a class="menu-items" id="menu-1" href="why.html"><span class="title">Почему мы?</span></a></li>
+          <li><a class="menu-items" id="menu-1" href="#section5"><span class="title">Телемаркетинг</span></a></li>
+          <li><a class="menu-items" id="menu-1" href="/pages/carrier.html"><span class="title">Каръера</span></a></li>
+          <li><a class="menu-items" id="menu-1" href="#section6"><span class="title">Контакты</span></a></li>
+        </ul>
+      </nav>
+      <div class="nav__phones-soclinks">
+        <span class="nav__phones">
+          <div>+7 (499) 649-69-80</div>
+          <div>+7 (916) 156-08-98</div>
+        </span>
+        <div class="nav__social-links-icon">
+          <span>
+            <svg width="26" height="26" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+                <path d="M34.688 25.327C34.594 25.1695 34.0121 23.905 31.2119 21.306C28.2804 18.5846 28.6742 19.0265 32.2051 14.3208C34.3555 11.455 35.2153 9.70487 34.9462 8.95669C34.6902 8.24351 33.1086 8.43165 33.1086 8.43165L27.8494 8.46227C27.8494 8.46227 27.46 8.40977 27.1691 8.5826C26.8868 8.75323 26.7053 9.14701 26.7053 9.14701C26.7053 9.14701 25.8718 11.3653 24.7604 13.2511C22.4175 17.2304 21.4789 17.4404 21.0961 17.1932C20.2057 16.6179 20.4289 14.8787 20.4289 13.6448C20.4289 9.788 21.013 8.18007 19.2891 7.76441C18.7159 7.62659 18.2959 7.53471 16.8324 7.51939C14.9553 7.4997 13.3649 7.52596 12.4658 7.96568C11.8664 8.25882 11.4048 8.91293 11.687 8.95012C12.0348 8.99607 12.8224 9.16233 13.2402 9.73112C13.7806 10.464 13.7609 12.1135 13.7609 12.1135C13.7609 12.1135 14.0715 16.6529 13.0368 17.2173C12.3258 17.6045 11.3523 16.8148 9.26305 13.2029C8.19328 11.3544 7.38385 9.3089 7.38385 9.3089C7.38385 9.3089 7.22852 8.92825 6.95069 8.72479C6.61379 8.47759 6.14125 8.39883 6.14125 8.39883L1.14026 8.42946C1.14026 8.42946 0.389892 8.45134 0.114247 8.7773C-0.130771 9.06826 0.0945578 9.66768 0.0945578 9.66768C0.0945578 9.66768 4.01047 18.8274 8.44267 23.4456C12.5095 27.6787 17.1255 27.4009 17.1255 27.4009H19.2169C19.2169 27.4009 19.8491 27.3309 20.1707 26.983C20.4682 26.6636 20.4573 26.0642 20.4573 26.0642C20.4573 26.0642 20.4157 23.2574 21.7196 22.844C23.0037 22.4371 24.6532 25.5567 26.4012 26.7577C27.7225 27.6656 28.7267 27.4665 28.7267 27.4665L33.4017 27.4009C33.4017 27.4009 35.8475 27.2499 34.688 25.327Z" fill="#737473"/>
+              </g>
+            </svg>
+          </span>
+          <span>
+            <svg width="24" height="24" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+              <path d="M34.9658 10.2901C34.8838 8.43041 34.5831 7.15189 34.1523 6.04404C33.7079 4.86808 33.0241 3.81525 32.1284 2.94003C31.2531 2.05118 30.1933 1.36051 29.031 0.923032C27.9167 0.49223 26.6449 0.191497 24.7852 0.109503C22.9116 0.0205652 22.3169 0 17.565 0C12.813 0 12.2183 0.0205652 10.3516 0.102559C8.49194 0.184553 7.21342 0.485553 6.10584 0.916088C4.92961 1.36051 3.87678 2.04424 3.00155 2.94003C2.11271 3.81525 1.4223 4.87503 0.984556 6.03736C0.553754 7.15189 0.253021 8.42347 0.171027 10.2832C0.0820887 12.1567 0.0615234 12.7515 0.0615234 17.5034C0.0615234 22.2553 0.0820887 22.8501 0.164083 24.7167C0.246077 26.5764 0.547077 27.8549 0.977879 28.9628C1.4223 30.1388 2.11271 31.1916 3.00155 32.0668C3.87678 32.9557 4.93656 33.6463 6.09889 34.0838C7.21342 34.5146 8.485 34.8153 10.3449 34.8973C12.2113 34.9796 12.8064 34.9999 17.5583 34.9999C22.3102 34.9999 22.905 34.9796 24.7716 34.8973C26.6313 34.8153 27.9098 34.5146 29.0174 34.0838C31.3696 33.1744 33.2293 31.3147 34.1387 28.9628C34.5692 27.8483 34.8702 26.5764 34.9522 24.7167C35.0342 22.8501 35.0548 22.2553 35.0548 17.5034C35.0548 12.7515 35.0478 12.1567 34.9658 10.2901ZM31.814 24.58C31.7387 26.2893 31.4516 27.2123 31.2123 27.8277C30.6242 29.3525 29.414 30.5626 27.8892 31.1507C27.2739 31.39 26.3442 31.6771 24.6415 31.7522C22.7955 31.8344 22.2418 31.8547 17.5719 31.8547C12.90231.8547 12.3414 31.8344 10.502 31.7522C8.79267 31.6771 7.86964 31.39 7.25429 31.1507C6.49551 30.8703 5.80484 30.4259 5.24423 29.8447C4.66306 29.2771 4.21864 28.5934 3.93821 27.8346C3.6989 27.2193 3.41179 26.2893 3.33674 24.5869C3.25448 22.74093.23418 22.187 3.23418 17.517C3.23418 12.8471 3.25448 12.2865 3.33674 10.4474C3.41179 8.73809 3.6989 7.81506 3.93821 7.1997C4.21864 6.44066 4.66306 5.75025 5.25118 5.18938C5.81846 4.60821 6.50219 4.16379 7.26123 3.88362C7.87658 3.64432 8.806563.35721 10.5089 3.28189C12.355 3.1999 12.9089 3.17933 17.5786 3.17933C22.2554 3.17933 22.8091 3.1999 24.6485 3.28189C26.3578 3.35721 27.2808 3.64432 27.8962 3.88362C28.655 4.16379 29.3456 4.60821 29.9062 5.18938C30.4874 5.75693 30.9318 6.4406631.2123 7.1997C31.4516 7.81506 31.7387 8.74477 31.814 10.4474C31.896 12.2935 31.9166 12.8471 31.9166 17.517C31.9166 22.187 31.896 22.7339 31.814 24.58Z" fill="#737473"/>
+              <path d="M17.5647 8.51227C12.601 8.51227 8.57373 12.5393 8.57373 17.5033C8.57373 22.4672 12.601 26.4943 17.5647 26.4943C22.5287 26.4943 26.5558 22.4672 26.5558 17.5033C26.5558 12.5393 22.5287 8.51227 17.5647 8.51227ZM17.5647 23.3355C14.3445 23.3355 11.7325 20.7237 11.7325 17.5033C11.7325 14.2828 14.3445 11.671 17.5647 11.671C20.7852 11.671 23.397 14.2828 23.397 17.5033C23.397 20.7237 20.7852 23.3355 17.5647 23.3355Z" fill="#737473"/>
+              <path d="M29.0108 8.15692C29.0108 9.31605 28.0709 10.2559 26.9115 10.2559C25.7524 10.2559 24.8125 9.31605 24.8125 8.15692C24.8125 6.99751 25.7524 6.05792 26.9115 6.05792C28.0709 6.05792 29.0108 6.99751 29.0108 8.15692Z" fill="#737473"/>
+              </g>
+            </svg>
+          </span>
+          <span>
+            <svg width="24" height="24" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M35 17.5C35 7.83398 27.166 0 17.5 0C7.83398 0 0 7.83398 0 17.5C0 27.166 7.83398 35 17.5 35C17.6025 35 17.7051 35 17.8076 34.9932V21.376H14.0479V16.9941H17.8076V13.7676C17.8076 10.0283 20.0908 7.99121 23.4268 7.99121C25.0264 7.99121 26.4004 8.10742 26.7969 8.16211V12.0723H24.5C22.6885 12.0723 22.333 12.9336 22.333 14.1982V16.9873H26.6738L26.1064 21.3691H22.333V34.3232C29.6475 32.2246 35 25.4912 35 17.5Z" fill="#737473"/>
+            </svg>
+          </span>
+        </div>
       </div>
-      <div class=nav__social-links>
-        <img src="/imgs/vk.svg" alt="imgs/vk.svg" />
-        <object data="logo.svg" width="300" height="300"> </object>
-        <object data="/imgs/vk.svg" width="300" height="300"> </object>
-        <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <g clip-path="url(#clip0)">
-          <path d="M34.688 25.327C34.594 25.1695 34.0121 23.905 31.2119 21.306C28.2804 18.5846 28.6742 19.0265 32.2051 14.3208C34.3555 11.455 35.2153 9.70487 34.9462 8.95669C34.6902 8.24351 33.1086 8.43165 33.1086 8.43165L27.8494 8.46227C27.8494 8.46227 27.46 8.40977 27.1691 8.5826C26.8868 8.75323 26.7053 9.14701 26.7053 9.14701C26.7053 9.14701 25.8718 11.3653 24.7604 13.2511C22.4175 17.2304 21.4789 17.4404 21.0961 17.1932C20.2057 16.6179 20.4289 14.8787 20.4289 13.6448C20.4289 9.788 21.013 8.18007 19.2891 7.76441C18.7159 7.62659 18.2959 7.53471 16.8324 7.51939C14.9553 7.4997 13.3649 7.52596 12.4658 7.96568C11.8664 8.25882 11.4048 8.91293 11.687 8.95012C12.0348 8.99607 12.8224 9.16233 13.2402 9.73112C13.7806 10.464 13.7609 12.1135 13.7609 12.1135C13.7609 12.1135 14.0715 16.6529 13.0368 17.2173C12.3258 17.6045 11.3523 16.8148 9.26305 13.2029C8.19328 11.3544 7.38385 9.3089 7.38385 9.3089C7.38385 9.3089 7.22852 8.92825 6.95069 8.72479C6.61379 8.47759 6.14125 8.39883 6.14125 8.39883L1.14026 8.42946C1.14026 8.42946 0.389892 8.45134 0.114247 8.7773C-0.130771 9.06826 0.0945578 9.66768 0.0945578 9.66768C0.0945578 9.66768 4.01047 18.8274 8.44267 23.4456C12.5095 27.6787 17.1255 27.4009 17.1255 27.4009H19.2169C19.2169 27.4009 19.8491 27.3309 20.1707 26.983C20.4682 26.6636 20.4573 26.0642 20.4573 26.0642C20.4573 26.0642 20.4157 23.2574 21.7196 22.844C23.0037 22.4371 24.6532 25.5567 26.4012 26.7577C27.7225 27.6656 28.7267 27.4665 28.7267 27.4665L33.4017 27.4009C33.4017 27.4009 35.8475 27.2499 34.688 25.327Z" fill="#737473"/>
-          </g>
-          <defs>
-          <clipPath id="clip0">
-          <rect width="35" height="35" fill="white"/>
-          </clipPath>
-          </defs>
-          </svg>
-      </div>
-    </nav>
-  </footer>
+    </footer>
   <!--[if lt IE 9]>
   <script src="libs/html5shiv/es5-shim.min.js"></script>
   <script src="libs/html5shiv/html5shiv.min.js"></script>
@@ -106,7 +129,7 @@
   <script src="libs/mask/jquery.maskedinput.js"></script>
   <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
   <script src="js/common.js?ver=1.4"></script>
-  <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+  <!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
   <script>
     $(document).ready(function() {
     ymaps.ready(init);
@@ -134,8 +157,9 @@
     myMap.geoObjects.add(myPlacemark);
     }
   });
-  </script>
+  </script> -->
 <!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
 <!-- Google Analytics counter --><!-- /Google Analytics counter -->
+  </div>
 </body>
 </html>
