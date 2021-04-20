@@ -14,49 +14,23 @@
 	align-items: center;
 	justify-content: space-between;
   height: 12vh;
-  padding: 2% 5%;
-	background-color: yellow;
+  padding: 2% 4%;
 	position: fixed;
 }
-/* .header__right {
-	display: flex;
-	align-items: center;
-}
-.header__right .social-list {
-	margin: 0 25px;
-}
-.header__right .btn-main {
-	font-size: 14px;
-	padding: 0 20px;
-	height: 43px;
-} */
 
-.logo {
-	display: flex;
-	align-self: center;
-}
 .logo img {
 	width: 119px;
 }
-.logo-descr {
-	margin-left: 30px;
-	font-size: 14px;
-	max-width: 187px;
-	line-height: 21px;
-}
-.logo-wrap {
-	display: inline-flex;
-	align-items: center;
-}
 
+.nav {
+	min-width: 50%;
+}
 .nav__menu {
-	max-width: 595px;
-	font-weight: 600;
-	margin: 0 auto;
-	flex: 1;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	min-width: 60%;
+	font-weight: 600;
 }
 .menu a {
 	color: #ffff;
@@ -69,9 +43,17 @@
 .nav__burger-stick {
   width: 30px;
   height: 2px;
-	margin: 2%;
+	margin: 20%;
   background: #737473
 }
+
+.nav__phones-burger, .nav__phones-soclinks{
+  display: flex;
+  align-items: center;
+	justify-content: space-between;
+	min-width: 24%;
+}
+
 
 .footer {
   left: 0;
@@ -81,7 +63,14 @@
 	align-items: center;
 	justify-content: space-between;
   height: 12vh;
-  padding: 2% 5%;
-	background-color: lightsalmon;
+  padding: 2% 4%;
   position: fixed;
+}
+.footer .nav__social-links-icon {
+	display: flex;
+	justify-content: space-between;
+	min-width: 30%;
+}
+.footer .nav__social-links-icon span{
+	padding: 5%;
 }
