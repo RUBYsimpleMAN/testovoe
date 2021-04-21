@@ -117,17 +117,6 @@ header .header-inside {
 	z-index: 5;
 }
 
-/* Star 9
-position: absolute;
-width: 110px;
-left: calc(50% - 110px/2 + 0.5px);
-top: 0%;
-bottom: 66.26%;
-
-background: linear-gradient(211.68deg, #6F3A80 16.84%, #EE778C 50.49%, #6F3A80 84.86%);
-border-radius: 5px;
-*/
-
 /* 1
 position: absolute;
 width: 19px;
@@ -159,7 +148,15 @@ color: #FFFFFF;
 	width: auto;
 }
 .main__pic-star {
-	margin-top: -10%;
+	/* position: absolute; */
+	width: 110px;
+	left: calc(50% - 110px/2 + 0.5px);
+	top: 0%;
+	bottom: 66.26%;
+	
+	background: linear-gradient(211.68deg, #6F3A80 16.84%, #EE778C 50.49%, #6F3A80 84.86%);
+	border-radius: 5px;
+  margin-top: -10%;
 }
 
 
