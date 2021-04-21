@@ -109,7 +109,7 @@ header .header-inside {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin: 3% auto;
-	/* max-width: 96%; */
+	min-width: 96%;
 	height: 50vh;
 	padding-top: 40px;
 	border: 2px solid navy;
@@ -150,6 +150,9 @@ color: #FFFFFF;
 	justify-self: center;
 	flex-basis: 22%;
 	min-width: 20%;
+	margin: 1%;
+	padding: 2%;
+	border: 2px solid mintcream;
 	background-color: steelblue;
 }
 .main__pic-tab {
