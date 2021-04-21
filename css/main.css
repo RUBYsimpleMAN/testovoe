@@ -148,7 +148,10 @@ color: #FFFFFF;
 	width: auto;
 }
 .main__pic-star {
-	width: 110px;
+	width: 20%;
+	/* height: 20%; */
+	height: 0;
+	padding-bottom: 20%;
 	-webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   opacity: 0.8;
