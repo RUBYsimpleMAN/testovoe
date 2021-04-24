@@ -72,8 +72,6 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		});
 
 	$(".btn-dots").click(function() {
-			
-
 			if ($(".wrapper-dropdown").is(":hidden")) {
 			$(".wrapper-dropdown").fadeIn(200);
 			$(this).addClass("active");
@@ -81,7 +79,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			$(".wrapper-dropdown").fadeOut(200);
 			$(this).removeClass("active");
 		}
-		});
+  });
 
 
 $(document).mouseup(function (e){ 

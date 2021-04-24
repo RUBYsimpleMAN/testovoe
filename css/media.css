@@ -43,6 +43,9 @@
   .nav {
       display: none;
   }
+  .btn_nav {
+	display: block;
+  }
   .wrapper {
       padding-top: 88px;
   }

@@ -743,6 +743,8 @@ select {
 .jq-selectbox__trigger:before {
 	content: "\f078";
 }
+
+
 /*Style Sandwich*/
 .btn_nav {
 	border: none;
@@ -821,8 +823,8 @@ select {
 	width: 30px;
 	transform: rotate(-45deg);
 }
-
 /*End Sandwich*/
+
 .menu-mobile,
 .phone-mob {
 	display: none;
